@@ -1,0 +1,34 @@
+<div *ngIf="!juegoIniciado">
+  <h2>Configuración del Juego</h2>
+  <label>Nombre:</label>
+  <input type="text" [(ngModel)]="nombre" (input)="validarFormulario()">
+  <div *ngIf="!nombreValido" class="error">El nombre no puede estar vacío</div>
+  <div *ngIf="nombreValido" class="valid">✔</div>
+
+  <label>Apellido:</label>
+  <input type="text" [(ngModel)]="apellido" (input)="validarFormulario()">
+  <div *ngIf="!apellidoValido" class="error">El apellido no puede estar vacío</div>
+  <div *ngIf="apellidoValido" class="valid">✔</div>
+
+  <label>Rango Máximo:</label>
+  <input type="number" [(ngModel)]="rangoMax" (input)="validarFormulario()">
+  <div *ngIf="!rangoMaxValido" class="error">El número debe ser 4 o más</div>
+  <div *ngIf="rangoMaxValido" class="valid">✔</div>
+
+  <label>Número de Intentos:</label>
+  <input type="number" [(ngModel)]="intentos" (input)="validarFormulario()" min="1">
+  <div *ngIf="!intentosValido" class="error">Debe ingresar un número de intentos mayor o igual a 1</div>
+  <div *ngIf="intentosValido" class="valid">✔</div>
+
+  <button [disabled]="!botonActivo" (click)="iniciarJuego()">Recoger Datos</button>
+</div>
+
+<div *ngIf="juegoIniciado">
+  <h2>Ongi Etorri {{ nombre }} {{ apellido }}</h2>
+  <p>Intenta adivinar el número</p>
+
+  <input type="number" [(ngModel)]="numeroIngresado">
+  <button (click)="comprobarNumero()">Enviar</button>
+
+  <p>{{ mensaje }}</p>
+</div>

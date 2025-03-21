@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://Andoni98.github.io/lopez_azpeitia_andoni_DWEC05_TareaEvaluativa01/',
+  baseHref: 'https://andoni98.github.io/lopez_azpeitia_andoni_DWEC05_TareaEvaluativa01/',
   locale: undefined,
   routes: [
   {
@@ -12,9 +12,9 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 562, hash: '6100d98fd93fb830d529708289b06b9097b7910d5dbdb075b5edbec22170dba1', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1075, hash: 'c929ddb2ad484ff0cb46732dd980bbe39831b250c57cda24cbd45c42bf69b725', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 3952, hash: 'f583eb885cb39290c50ab73f967fb155a4632809502a788b438cfc0d2ea9094a', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 562, hash: '19df63350457d19b3888dce81377723a56064d412093bfd42fcbe6688d8c1c87', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1075, hash: 'f867d9da89a22e959543887638d496a3a4466a491a70f54a9f78a6acff1b4d10', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 3952, hash: '86aab5d9672c1fa957921d7152c370ddce96624f54ee57c603d1b67c968dd7db', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };

@@ -1,7 +1,7 @@
 export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
   <meta charset="utf-8">
   <title>Tarea</title>
-  <base href="https://Andoni98.github.io/lopez_azpeitia_andoni_DWEC05_TareaEvaluativa01/">
+  <base href="https://andoni98.github.io/lopez_azpeitia_andoni_DWEC05_TareaEvaluativa01/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-5INURTSO.css"><style ng-app-id="ng">body[_ngcontent-ng-c2766323463]{font-family:Arial,sans-serif;display:flex;justify-content:center;align-items:center;height:100vh;background-color:#f4f4f4}.container[_ngcontent-ng-c2766323463]{background:#fff;padding:20px;border-radius:10px;box-shadow:0 0 10px #0000001a;width:300px;text-align:center}h2[_ngcontent-ng-c2766323463]{color:#333}input[_ngcontent-ng-c2766323463]{width:100%;padding:8px;margin:5px 0;border:1px solid #ccc;border-radius:5px}button[_ngcontent-ng-c2766323463]{background:#28a745;color:#fff;border:none;padding:10px;margin-top:10px;cursor:pointer;border-radius:5px;width:100%}button[_ngcontent-ng-c2766323463]:disabled{background:#ccc;cursor:not-allowed}.error[_ngcontent-ng-c2766323463]{color:red;font-size:12px;margin-top:5px}.valid[_ngcontent-ng-c2766323463]{color:green;font-size:16px;margin-top:5px}</style></head>
